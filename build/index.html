@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio professionnel</title>
+    <script type="module" crossorigin src="/assets/main-DGtGTiV5.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-deT4mVIi.css">
+  </head>
+<body class="min-h-screen bg-white text-zinc-800">
+  <!-- Header -->
+  <header class="w-full border-b border-zinc-200 bg-white">
+    <div class="mx-auto max-w-[1200px] px-4">
+      <div class="h-14 flex items-center gap-4 justify-between overflow-x-clip">
+        <!-- Logo -->
+        <div class="flex items-center gap-2 shrink-0">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-zinc-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 7h3l1-2h6l1 2h3a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z"/>
+            <path d="M8 13a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"/>
+          </svg>
+          <span class="text-sm font-medium text-zinc-800">Logo</span>
+        </div>
+
+        <!-- Liens -->
+        <nav class="flex-1 min-w-0 hidden md:flex items-center justify-center gap-5 flex-wrap">
+          <a href="#accueil" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Accueil</a>
+          <a href="pages/Projets.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Projets</a>
+          <a href="pages/Apropos.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">À propos</a>
+          <a href="pages/contact.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Contact</a>
+        </nav>
+
+        <!-- CTA -->
+        <div class="hidden md:flex items-center gap-2 shrink-0 whitespace-nowrap">
+          <a href="mailto:hello@example.com" class="inline-flex items-center gap-2 rounded-md bg-zinc-800 px-3 py-1.5 text-[11px] font-medium text-white hover:bg-zinc-900">
+            <!-- FiMail -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
+              <path d="M3 7l9 6 9-6"></path>
+            </svg>
+            hello@example.com
+          </a>
+          <a href="tel:+33123456789" class="inline-flex items-center gap-2 rounded-md bg-zinc-800 px-3 py-1.5 text-[11px] font-medium text-white hover:bg-zinc-900">
+            <!-- FiPhone -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92V20a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2 4.18 2 2 0 0 1 4 2h3.09a2 2 0 0 1 2 1.72c.12.89.31 1.76.57 2.6a2 2 0 0 1-.45 2.11L8.91 9.91a16 16 0 0 0 6 6l1.48-1.31a2 2 0 0 1 2.11-.45c.84.26 1.71.45 2.6.57A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            +33 1 23 45 67 89
+          </a>
+        </div>
+
+        <!-- Burger -->
+        <button id="menuBtn" class="md:hidden inline-flex items-center justify-center rounded-md border border-zinc-300 p-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Menu mobile -->
+      <nav id="mobileNav" class="md:hidden hidden px-4 pb-4">
+        <div class="grid gap-2">
+          <a href="#accueil" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Accueil</a>
+          <a href="pages/Projets.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Projets</a>
+          <a href="pages/Apropos.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">À propos</a>
+          <a href="pages/contact.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="accueil" class="relative min-h-[calc(100svh-56px)] w-full overflow-hidden flex items-center justify-center">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 h-full flex items-center">
+      <div class="mx-auto max-w-3xl px-4 text-center text-white">
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+          L'art de raconter votre histoire, visuellement.
+        </h1>
+        <p class="mt-4 text-lg md:text-xl opacity-95">
+          Nous transformons vos idées en expériences visuelles percutantes.
+          Découvrez comment la créativité rencontre l'impact.
+        </p>
+        <a href="#projets" class="mt-8 inline-flex items-center rounded-lg bg-zinc-800 px-6 py-3 font-medium hover:bg-zinc-900">
+          Découvrir notre travail
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUI SOMMES-NOUS -->
+  <section id="who-are-we" class="py-16 bg-white">
+    <div class="mx-auto max-w-[1200px] px-4">
+      <div class="grid gap-10 lg:grid-cols-2 items-center">
+        <!-- Texte -->
+        <div class="space-y-4">
+          <h2 class="text-2xl md:text-3xl font-bold">Qui sommes-nous ?</h2>
+          <p class="text-zinc-600">
+            Nous sommes une équipe passionnée par le design, la vidéo et le web.
+            Notre mission : transformer des idées en supports visuels mémorables et efficaces.
+          </p>
+          <p class="text-zinc-600">
+            Du brief à la livraison, nous accompagnons nos clients avec une méthode claire,
+            des délais réalistes et une exigence de qualité.
+          </p>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-zinc-700">
+            <li class="flex items-center gap-2">
+              <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-500"></span> Direction artistique
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-500"></span> Identité & branding
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-500"></span> Sites vitrines / portfolios
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="inline-block h-1.5 w-1.5 rounded-full bg-amber-500"></span> Motion & vidéo
+            </li>
+          </ul>
+        </div>
+
+        <!-- Image -->
+        <div class="flex justify-center">
+          <img src="/home/meeting.jpg" alt="Réunion d'équipe"
+               class="max-w-full h-auto rounded-lg shadow-lg object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets" class="py-16 bg-zinc-50">
+  <div class="mx-auto max-w-[1200px] px-4">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-bold">Projets de design récents</h2>
+        <p class="mt-1 text-zinc-600">
+          Une sélection de créations visuelles qui reflètent notre passion pour l’esthétique et la fonctionnalité.
+        </p>
+      </div>
+      <a href="#contact" class="hidden sm:inline-flex items-center rounded-md border border-zinc-300 px-3 py-1.5 text-sm hover:bg-zinc-50">
+        Discuter d'un projet
+      </a>
+    </div>
+
+    <!-- Grille projets -->
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Carte projet -->
+      <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
+        <img src="/home/projet2.jpg" alt="Identité visuelle" class="aspect-video w-full object-cover rounded-xl" />
+        <h3 class="mt-4 text-lg font-semibold">Identité visuelle pour une marque lifestyle</h3>
+        <p class="mt-1 text-sm text-zinc-600">
+          Création complète de l'identité graphique : logo, palette de couleurs, typographies et supports imprimés.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Branding</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Illustrator</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">InDesign</span>
+        </div>
+      </article>
+
+      <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
+        <img src="/home/projet1.jpg" alt="Identité visuelle" class="aspect-video w-full object-cover rounded-xl" />
+        <h3 class="mt-4 text-lg font-semibold">Refonte UX/UI d’un site e-commerce</h3>
+        <p class="mt-1 text-sm text-zinc-600">
+          Conception d’une interface moderne et ergonomique, optimisée pour améliorer l’expérience utilisateur et augmenter les ventes.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">UX/UI</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Figma</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Prototypage</span>
+        </div>
+      </article>
+
+      <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
+        <img src="/home/projet3.jpg" alt="Identité visuelle" class="aspect-video w-full object-cover rounded-xl" />
+        <h3 class="mt-4 text-lg font-semibold">Campagne visuelle pour un événement culturel</h3>
+        <p class="mt-1 text-sm text-zinc-600">
+          Création d’affiches, flyers et visuels réseaux sociaux pour promouvoir un festival de design contemporain.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Affiche</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Photoshop</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Réseaux sociaux</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+</body>
+
+
+  </html>

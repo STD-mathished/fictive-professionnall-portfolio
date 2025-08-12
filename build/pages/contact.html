@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact – Creative Showcase</title>
+    <script type="module" crossorigin src="/assets/main-DGtGTiV5.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-deT4mVIi.css">
+  </head>
+
+  <body class="min-h-screen bg-white text-zinc-800">
+    <!-- Header -->
+    <header class="w-full border-b border-zinc-200 bg-white">
+      <div class="mx-auto max-w-[1200px] px-4">
+        <div class="h-14 flex items-center gap-4 justify-between overflow-x-clip">
+          <a href="/index.html" class="flex items-center gap-2 shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-zinc-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 7h3l1-2h6l1 2h3a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z"/>
+              <path d="M8 13a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"/>
+            </svg>
+            <span class="text-sm font-medium text-zinc-800">Logo</span>
+          </a>
+
+          <nav class="flex-1 min-w-0 hidden md:flex items-center justify-center gap-5 flex-wrap">
+            <a href="/index.html#accueil" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Accueil</a>
+            <a href="./Apropos.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">À propos</a>
+            <a href="./Projets.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Projets</a>
+            <a href="#" class="text-xs md:text-sm text-amber-600 font-medium">Contact</a>
+          </nav>
+
+          <button id="menuBtn" class="md:hidden inline-flex items-center justify-center rounded-md border border-zinc-300 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"/>
+              <line x1="3" y1="6" x2="21" y2="6"/>
+              <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Menu mobile -->
+        <nav id="mobileNav" class="md:hidden hidden px-4 pb-4">
+          <div class="grid gap-2">
+            <a href="/index.html#accueil" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Accueil</a>
+            <a href="./about.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">À propos</a>
+            <a href="./projects.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Portfolio</a>
+            <a href="./contact.html" class="block rounded-md px-3 py-2 text-sm bg-zinc-100">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-16 bg-white">
+      <div class="mx-auto max-w-[1200px] px-4 grid gap-12 lg:grid-cols-2 items-start">
+        
+        <!-- Formulaire -->
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold">Contact</h2>
+          <p class="mt-1 text-zinc-600">Discutons de vos besoins. Nous répondons sous 24h.</p>
+
+          <form class="mt-6 grid gap-4 rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <label class="grid gap-1">
+                <span class="text-sm">Nom</span>
+                <input type="text" required placeholder="Votre nom" class="h-10 rounded-md border border-zinc-300 px-3 outline-none focus:border-amber-500" />
+              </label>
+              <label class="grid gap-1">
+                <span class="text-sm">Email</span>
+                <input type="email" required placeholder="vous@exemple.com" class="h-10 rounded-md border border-zinc-300 px-3 outline-none focus:border-amber-500" />
+              </label>
+            </div>
+
+            <label class="grid gap-1">
+              <span class="text-sm">Sujet</span>
+              <input type="text" required placeholder="Sujet du message" class="h-10 rounded-md border border-zinc-300 px-3 outline-none focus:border-amber-500" />
+            </label>
+
+            <label class="grid gap-1">
+              <span class="text-sm">Message</span>
+              <textarea required rows="6" placeholder="Décrivez votre projet..." class="rounded-md border border-zinc-300 px-3 py-2 outline-none focus:border-amber-500"></textarea>
+            </label>
+
+            <div class="flex items-center justify-between">
+              <p class="text-xs text-zinc-500">En envoyant, vous acceptez d'être recontacté par email.</p>
+              <button type="submit" class="inline-flex items-center gap-2 rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 2 11 13"></path>
+                  <path d="M22 2l-7 20-4-9-9-4Z"></path>
+                </svg>
+                Envoyer
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Carte Google Maps -->
+        <div class="w-full rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999474960951!2d2.2922926156758793!3d48.85837307928742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdebdfed1e9%3A0x7ed8f2d4c5e8e5e7!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1693407123456!5m2!1sfr!2sfr" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-200 bg-white py-8">
+      <div class="mx-auto max-w-[1200px] px-4 flex flex-col gap-3 sm:flex-row items-center justify-between">
+        <p class="text-sm text-zinc-600">© <span id="year"></span> Creative Showcase — Tous droits réservés.</p>
+        <div class="text-sm">
+          <a href="/mentions-legales.html" class="hover:text-amber-600">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
