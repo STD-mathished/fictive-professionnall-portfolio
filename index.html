@@ -14,7 +14,6 @@
       <div class="h-14 flex items-center gap-4 justify-between overflow-x-clip">
         <!-- Logo -->
         <div class="flex items-center gap-2 shrink-0">
-          <!-- MdAddAPhoto -->
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-zinc-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M3 7h3l1-2h6l1 2h3a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z"/>
             <path d="M8 13a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"/>
@@ -25,9 +24,9 @@
         <!-- Liens -->
         <nav class="flex-1 min-w-0 hidden md:flex items-center justify-center gap-5 flex-wrap">
           <a href="#accueil" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Accueil</a>
-          <a href="#projets" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Projets</a>
-          <a href="#who-are-we" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Qui sommes-nous</a>
-          <a href="#contact" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Contact</a>
+          <a href="pages/Projets.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Projets</a>
+          <a href="pages/Apropos.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">À propos</a>
+          <a href="pages/contact.html" class="text-xs md:text-sm text-zinc-700 hover:text-amber-600">Contact</a>
         </nav>
 
         <!-- CTA -->
@@ -61,9 +60,9 @@
       <nav id="mobileNav" class="md:hidden hidden px-4 pb-4">
         <div class="grid gap-2">
           <a href="#accueil" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Accueil</a>
-          <a href="#projets" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Projets</a>
-          <a href="#who-are-we" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Qui sommes-nous</a>
-          <a href="#contact" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Contact</a>
+          <a href="pages/Projets.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Projets</a>
+          <a href="pages/Apropos.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">À propos</a>
+          <a href="pages/contact.html" class="block rounded-md px-3 py-2 text-sm hover:bg-zinc-100">Contact</a>
         </div>
       </nav>
     </div>
@@ -130,96 +129,63 @@
 
   <!-- PROJETS -->
   <section id="projets" class="py-16 bg-zinc-50">
-    <div class="mx-auto max-w-[1200px] px-4">
-      <div class="flex items-end justify-between gap-4">
-        <div>
-          <h2 class="text-2xl md:text-3xl font-bold">Projets</h2>
-          <p class="mt-1 text-zinc-600">Une sélection de réalisations récentes.</p>
-        </div>
-        <a href="#contact" class="hidden sm:inline-flex items-center rounded-md border border-zinc-300 px-3 py-1.5 text-sm hover:bg-zinc-50">
-          Discuter d'un projet
-        </a>
+  <div class="mx-auto max-w-[1200px] px-4">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-bold">Projets de design récents</h2>
+        <p class="mt-1 text-zinc-600">
+          Une sélection de créations visuelles qui reflètent notre passion pour l’esthétique et la fonctionnalité.
+        </p>
       </div>
-
-      <!-- Grille projets -->
-      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <!-- Carte projet -->
-        <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
-          <div class="aspect-video w-full overflow-hidden rounded-xl bg-zinc-100"></div>
-          <h3 class="mt-4 text-lg font-semibold">Projet A</h3>
-          <p class="mt-1 text-sm text-zinc-600">Description courte de ce projet et de son impact.</p>
-          <div class="mt-3 flex flex-wrap gap-2">
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">HTML</span>
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Tailwind</span>
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">TS</span>
-          </div>
-        </article>
-
-        <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
-          <div class="aspect-video w-full overflow-hidden rounded-xl bg-zinc-100"></div>
-          <h3 class="mt-4 text-lg font-semibold">Projet B</h3>
-          <p class="mt-1 text-sm text-zinc-600">Description courte de ce projet et de son impact.</p>
-          <div class="mt-3 flex flex-wrap gap-2">
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">React</span>
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">TypeScript</span>
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">API</span>
-          </div>
-        </article>
-
-        <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
-          <div class="aspect-video w-full overflow-hidden rounded-xl bg-zinc-100"></div>
-          <h3 class="mt-4 text-lg font-semibold">Projet C</h3>
-          <p class="mt-1 text-sm text-zinc-600">Description courte de ce projet et de son impact.</p>
-          <div class="mt-3 flex flex-wrap gap-2">
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Next.js</span>
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">UI/UX</span>
-            <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">SEO</span>
-          </div>
-        </article>
-      </div>
+      <a href="#contact" class="hidden sm:inline-flex items-center rounded-md border border-zinc-300 px-3 py-1.5 text-sm hover:bg-zinc-50">
+        Discuter d'un projet
+      </a>
     </div>
-  </section>
 
-  <!-- CONTACT (optionnel si tu as déjà un composant ailleurs) -->
-  <section id="contact" class="py-16 bg-white">
-    <div class="mx-auto max-w-[800px] px-4">
-      <h2 class="text-2xl md:text-3xl font-bold">Contact</h2>
-      <p class="mt-1 text-zinc-600">Discutons de vos besoins. Je réponds sous 24h.</p>
-
-      <form class="mt-6 grid gap-4 rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
-        <div class="grid gap-4 sm:grid-cols-2">
-          <label class="grid gap-1">
-            <span class="text-sm">Nom</span>
-            <input type="text" required placeholder="Votre nom" class="h-10 rounded-md border border-zinc-300 px-3 outline-none focus:border-amber-500" />
-          </label>
-          <label class="grid gap-1">
-            <span class="text-sm">Email</span>
-            <input type="email" required placeholder="vous@exemple.com" class="h-10 rounded-md border border-zinc-300 px-3 outline-none focus:border-amber-500" />
-          </label>
+    <!-- Grille projets -->
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Carte projet -->
+      <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
+        <img src="/home/projet2.jpg" alt="Identité visuelle" class="aspect-video w-full object-cover rounded-xl" />
+        <h3 class="mt-4 text-lg font-semibold">Identité visuelle pour une marque lifestyle</h3>
+        <p class="mt-1 text-sm text-zinc-600">
+          Création complète de l'identité graphique : logo, palette de couleurs, typographies et supports imprimés.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Branding</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Illustrator</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">InDesign</span>
         </div>
+      </article>
 
-        <label class="grid gap-1">
-          <span class="text-sm">Sujet</span>
-          <input type="text" required placeholder="Sujet du message" class="h-10 rounded-md border border-zinc-300 px-3 outline-none focus:border-amber-500" />
-        </label>
-
-        <label class="grid gap-1">
-          <span class="text-sm">Message</span>
-          <textarea required rows="6" placeholder="Décrivez votre projet..." class="rounded-md border border-zinc-300 px-3 py-2 outline-none focus:border-amber-500"></textarea>
-        </label>
-
-        <div class="flex items-center justify-between">
-          <p class="text-xs text-zinc-500">En envoyant, vous acceptez d'être recontacté par email.</p>
-          <button type="submit" class="inline-flex items-center gap-2 rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-800">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M22 2 11 13"></path><path d="M22 2l-7 20-4-9-9-4Z"></path>
-            </svg>
-            Envoyer
-          </button>
+      <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
+        <img src="/home/projet1.jpg" alt="Identité visuelle" class="aspect-video w-full object-cover rounded-xl" />
+        <h3 class="mt-4 text-lg font-semibold">Refonte UX/UI d’un site e-commerce</h3>
+        <p class="mt-1 text-sm text-zinc-600">
+          Conception d’une interface moderne et ergonomique, optimisée pour améliorer l’expérience utilisateur et augmenter les ventes.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">UX/UI</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Figma</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Prototypage</span>
         </div>
-      </form>
+      </article>
+
+      <article class="group rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm hover:shadow">
+        <img src="/home/projet3.jpg" alt="Identité visuelle" class="aspect-video w-full object-cover rounded-xl" />
+        <h3 class="mt-4 text-lg font-semibold">Campagne visuelle pour un événement culturel</h3>
+        <p class="mt-1 text-sm text-zinc-600">
+          Création d’affiches, flyers et visuels réseaux sociaux pour promouvoir un festival de design contemporain.
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Affiche</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Photoshop</span>
+          <span class="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs">Réseaux sociaux</span>
+        </div>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
 
 </body>
 
