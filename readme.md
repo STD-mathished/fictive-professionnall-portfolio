@@ -2,7 +2,7 @@
 
 Ce projet est un site vitrine personnel développé avec [Vite](https://vitejs.dev/) et hébergé sur [GitHub Pages](https://pages.github.com/). Il présente mes compétences, des projets, et le parcours professionnel d'une entreprise fictive.
 
-**Démo en ligne** :<a href=" https://std-mathished.github.io/professionnel-portfiolio/">Lien vers la démo<a/>
+**Démo en ligne** : [https://std-mathished.github.io/professionnel-portfiolio/](https://std-mathished.github.io/professionnel-portfiolio/)
 
 ---
 
