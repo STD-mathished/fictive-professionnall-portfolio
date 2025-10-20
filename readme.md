@@ -1,4 +1,4 @@
-# Portfolio Professionnel – Mathis
+# Portfolio Professionnel – Fictif
 
 Ce projet est un site vitrine personnel développé avec [Vite](https://vitejs.dev/) et hébergé sur [GitHub Pages](https://pages.github.com/). Il présente mes compétences, des projets, et le parcours professionnel d'une entreprise fictive.
 
