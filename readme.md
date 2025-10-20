@@ -1,4 +1,4 @@
-# 💼 Portfolio Professionnel – Mathis
+# Portfolio Professionnel – Mathis
 
 Ce projet est un site vitrine personnel développé avec [Vite](https://vitejs.dev/) et hébergé sur [GitHub Pages](https://pages.github.com/). Il présente mes compétences, des projets, et le parcours professionnel d'une entreprise fictive.
 
@@ -9,7 +9,7 @@ Ce projet est un site vitrine personnel développé avec [Vite](https://vitejs.d
 ## Technologies utilisées
 
 -  [Vite](https://vitejs.dev/) – Pour le build ultra-rapide
--  HTML / CSS / Typescript
+-  HTML / tailwind CSS / Typescript
 -  GitHub Pages – Hébergement statique
 
 ---
